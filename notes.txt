@@ -1,0 +1,17 @@
+JS:
+- JS is considered loosely or dynamically typed, because variable types are determined at runtime and it can 
+  change as the code executes.
+- This creates the problem, we are not able to spot the error at the time of writing code, error occurs at runtime.
+- This is managable for few lines of code base, but for big projects it creates a huge problem.
+
+This is where typescript comes into the picture:
+
+Typescript:
+- It is a programming language that build on javascript by adding static types.
+- It is a superset of javascript.
+
+NOTE: Typescript is compiled into Javascript. When we create build for our application.
+
+We will use vite to create vanilla ts template:
+
+npm create vite@latest typescript -- --template vanilla-ts
